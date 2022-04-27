@@ -73,5 +73,6 @@ async function userIdLists(id) {
     },
   });
   console.log(userListsItems);
+  return;
 }
 userIdLists(4);
